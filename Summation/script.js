@@ -1,0 +1,13 @@
+
+// DESAFIO "Grasshopper - Summation" - Codewars
+// Create a function that sums the values between 0 and 'num';
+
+var summation = function (num) {
+  let sum = 0;
+  for (let i = 1; i <= num; i++ ) {
+  
+    sum += i;
+  }
+  return sum;
+}
+console.log(summation(10));
